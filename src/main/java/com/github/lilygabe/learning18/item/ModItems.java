@@ -22,6 +22,11 @@ public class ModItems {
                     .tab(CreativeModeTab.TAB_MATERIALS)
             )
     );
+    public static final RegistryObject<Item> POMBITELITE_DUST = ITEMS.register("pombitelite_dust",
+            () -> new Item(new Item.Properties()
+                    .tab(CreativeModeTab.TAB_MATERIALS)
+            )
+    );
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);

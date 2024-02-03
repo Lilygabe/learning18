@@ -1,4 +1,7 @@
 {
   "item.learning18.pombite": "Pombite",
-  "item.learning18.raw_pombitelite": "Raw Pombitelite"
+  "item.learning18.raw_pombitelite": "Raw Pombitelite",
+  "item.learning18.pombitelite_dust": "Pombitelite Dust",
+
+  "block.learning18.pombitelite_ore": "Pombelite Ore"
 }
