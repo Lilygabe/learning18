@@ -1,11 +1,14 @@
 package com.github.lilygabe.learning18.block;
 
 import com.github.lilygabe.learning18.Learning18;
+import com.github.lilygabe.learning18.item.ModCreativeModeTab;
 import com.github.lilygabe.learning18.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.FallingBlock;
+import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -25,7 +28,14 @@ public class ModBlocks {
                     BlockBehaviour.Properties.of(Material.STONE)
                             .strength(3)
                             .requiresCorrectToolForDrops()
-            ), CreativeModeTab.TAB_BUILDING_BLOCKS);
+            ), ModCreativeModeTab.MAIN_TAB);
+
+    public static final RegistryObject<Block> POMBITELITE_DUST_BLOCK =
+            registerBlock("pombitelite_dust_block",() -> new FallingBlock(
+                    BlockBehaviour.Properties.of(Material.SAND)
+                            .strength(0.5f)
+                            .sound(SoundType.SAND)
+            ), ModCreativeModeTab.MAIN_TAB);
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab){

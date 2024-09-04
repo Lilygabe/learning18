@@ -3,5 +3,8 @@
   "item.learning18.raw_pombitelite": "Raw Pombitelite",
   "item.learning18.pombitelite_dust": "Pombitelite Dust",
 
-  "block.learning18.pombitelite_ore": "Pombelite Ore"
+  "block.learning18.pombitelite_ore": "Pombitelite Ore",
+  "block.learning18.pombitelite_dust_block": "Pombitelite Dust Block",
+
+  "itemGroup.learning18": "Learning 18"
 }

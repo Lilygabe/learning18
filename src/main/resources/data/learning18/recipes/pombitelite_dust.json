@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "learning18:pombitelite_dust_block"
+    }
+  ],
+  "result": {
+    "item": "learning18:pombitelite_dust",
+    "count": 9
+  }
+}
